@@ -81,6 +81,9 @@ Version is: 2
 
 The important thing to note, is that the `Proxy` address stayed the same, while the `Box` address changed. By deleting our proxy contract, we destroyed storage, and started over with our `BoxV2` contract, but kept the same address!
 
+You'll want to check for function and storage clashes when working with something like this!
+
+
 # Linting
 
 To check linting / code formatting:
@@ -104,6 +107,8 @@ yarn format
 - [MetaMorphic Contracts](https://medium.com/@0age/the-promise-and-the-peril-of-metamorphic-contracts-9eb8b8413c5e)
 - [How do I read the implementation address of a proxy?](https://ethereum.stackexchange.com/questions/103143/how-do-i-get-the-implementation-contract-address-from-the-proxy-contract-address)
 - [Create2 Video](https://www.youtube.com/watch?v=883-koWrsO4)
+- [Function Selector](https://solidity-by-example.org/function-selector/)
+- [Understanding storage collisions in upgrades](https://docs.openzeppelin.com/upgrades-plugins/1.x/proxies#storage-collisions-between-implementation-versions)
 
 # Thank you!
 
