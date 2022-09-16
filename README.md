@@ -2,7 +2,7 @@
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course. This is not a complete repo, but a way to show users how to interact with metamorphic contracts that use create2. 
 
-Video Coming soon...
+*This repo has been updated to work with Goerli over Rinkeby*
 
 [Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
 
